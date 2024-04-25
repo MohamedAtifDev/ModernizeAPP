@@ -1,0 +1,620 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "F:\\Courses App\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DABD8EE2-CFA4-4507-9CA8-8C093D08D68C}|Courses App\\Courses App.csproj|f:\\courses app\\courses app\\bl\\services\\mailsender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DABD8EE2-CFA4-4507-9CA8-8C093D08D68C}|Courses App\\Courses App.csproj|solutionrelative:courses app\\bl\\services\\mailsender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DABD8EE2-CFA4-4507-9CA8-8C093D08D68C}|Courses App\\Courses App.csproj|f:\\courses app\\courses app\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DABD8EE2-CFA4-4507-9CA8-8C093D08D68C}|Courses App\\Courses App.csproj|solutionrelative:courses app\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DABD8EE2-CFA4-4507-9CA8-8C093D08D68C}|Courses App\\Courses App.csproj|f:\\courses app\\courses app\\dal\\models\\payment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DABD8EE2-CFA4-4507-9CA8-8C093D08D68C}|Courses App\\Courses App.csproj|solutionrelative:courses app\\dal\\models\\payment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DABD8EE2-CFA4-4507-9CA8-8C093D08D68C}|Courses App\\Courses App.csproj|f:\\courses app\\courses app\\bl\\vm\\studentcoursevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DABD8EE2-CFA4-4507-9CA8-8C093D08D68C}|Courses App\\Courses App.csproj|solutionrelative:courses app\\bl\\vm\\studentcoursevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DABD8EE2-CFA4-4507-9CA8-8C093D08D68C}|Courses App\\Courses App.csproj|f:\\courses app\\courses app\\bl\\vm\\sendemailvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DABD8EE2-CFA4-4507-9CA8-8C093D08D68C}|Courses App\\Courses App.csproj|solutionrelative:courses app\\bl\\vm\\sendemailvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DABD8EE2-CFA4-4507-9CA8-8C093D08D68C}|Courses App\\Courses App.csproj|f:\\courses app\\courses app\\bl\\reposatory\\paymentrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DABD8EE2-CFA4-4507-9CA8-8C093D08D68C}|Courses App\\Courses App.csproj|solutionrelative:courses app\\bl\\reposatory\\paymentrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DABD8EE2-CFA4-4507-9CA8-8C093D08D68C}|Courses App\\Courses App.csproj|f:\\courses app\\courses app\\dal\\models\\instructor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DABD8EE2-CFA4-4507-9CA8-8C093D08D68C}|Courses App\\Courses App.csproj|solutionrelative:courses app\\dal\\models\\instructor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DABD8EE2-CFA4-4507-9CA8-8C093D08D68C}|Courses App\\Courses App.csproj|f:\\courses app\\courses app\\dal\\models\\branch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DABD8EE2-CFA4-4507-9CA8-8C093D08D68C}|Courses App\\Courses App.csproj|solutionrelative:courses app\\dal\\models\\branch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DABD8EE2-CFA4-4507-9CA8-8C093D08D68C}|Courses App\\Courses App.csproj|f:\\courses app\\courses app\\bl\\automapper\\domainprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DABD8EE2-CFA4-4507-9CA8-8C093D08D68C}|Courses App\\Courses App.csproj|solutionrelative:courses app\\bl\\automapper\\domainprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DABD8EE2-CFA4-4507-9CA8-8C093D08D68C}|Courses App\\Courses App.csproj|f:\\courses app\\courses app\\bl\\vm\\paymentvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DABD8EE2-CFA4-4507-9CA8-8C093D08D68C}|Courses App\\Courses App.csproj|solutionrelative:courses app\\bl\\vm\\paymentvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DABD8EE2-CFA4-4507-9CA8-8C093D08D68C}|Courses App\\Courses App.csproj|f:\\courses app\\courses app\\bl\\reposatory\\studentrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DABD8EE2-CFA4-4507-9CA8-8C093D08D68C}|Courses App\\Courses App.csproj|solutionrelative:courses app\\bl\\reposatory\\studentrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DABD8EE2-CFA4-4507-9CA8-8C093D08D68C}|Courses App\\Courses App.csproj|f:\\courses app\\courses app\\bl\\interfaces\\istudent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DABD8EE2-CFA4-4507-9CA8-8C093D08D68C}|Courses App\\Courses App.csproj|solutionrelative:courses app\\bl\\interfaces\\istudent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DABD8EE2-CFA4-4507-9CA8-8C093D08D68C}|Courses App\\Courses App.csproj|f:\\courses app\\courses app\\courses app.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{DABD8EE2-CFA4-4507-9CA8-8C093D08D68C}|Courses App\\Courses App.csproj|solutionrelative:courses app\\courses app.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DABD8EE2-CFA4-4507-9CA8-8C093D08D68C}|Courses App\\Courses App.csproj|f:\\courses app\\courses app\\bl\\vm\\studentvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DABD8EE2-CFA4-4507-9CA8-8C093D08D68C}|Courses App\\Courses App.csproj|solutionrelative:courses app\\bl\\vm\\studentvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DABD8EE2-CFA4-4507-9CA8-8C093D08D68C}|Courses App\\Courses App.csproj|f:\\courses app\\courses app\\bl\\reposatory\\studentcourserepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DABD8EE2-CFA4-4507-9CA8-8C093D08D68C}|Courses App\\Courses App.csproj|solutionrelative:courses app\\bl\\reposatory\\studentcourserepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DABD8EE2-CFA4-4507-9CA8-8C093D08D68C}|Courses App\\Courses App.csproj|f:\\courses app\\courses app\\dal\\models\\studentcourse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DABD8EE2-CFA4-4507-9CA8-8C093D08D68C}|Courses App\\Courses App.csproj|solutionrelative:courses app\\dal\\models\\studentcourse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DABD8EE2-CFA4-4507-9CA8-8C093D08D68C}|Courses App\\Courses App.csproj|f:\\courses app\\courses app\\dal\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DABD8EE2-CFA4-4507-9CA8-8C093D08D68C}|Courses App\\Courses App.csproj|solutionrelative:courses app\\dal\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DABD8EE2-CFA4-4507-9CA8-8C093D08D68C}|Courses App\\Courses App.csproj|f:\\courses app\\courses app\\bl\\interfaces\\istudentcourse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DABD8EE2-CFA4-4507-9CA8-8C093D08D68C}|Courses App\\Courses App.csproj|solutionrelative:courses app\\bl\\interfaces\\istudentcourse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DABD8EE2-CFA4-4507-9CA8-8C093D08D68C}|Courses App\\Courses App.csproj|f:\\courses app\\courses app\\bl\\services\\fileuploader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DABD8EE2-CFA4-4507-9CA8-8C093D08D68C}|Courses App\\Courses App.csproj|solutionrelative:courses app\\bl\\services\\fileuploader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DABD8EE2-CFA4-4507-9CA8-8C093D08D68C}|Courses App\\Courses App.csproj|f:\\courses app\\courses app\\bl\\vm\\coursevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DABD8EE2-CFA4-4507-9CA8-8C093D08D68C}|Courses App\\Courses App.csproj|solutionrelative:courses app\\bl\\vm\\coursevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DABD8EE2-CFA4-4507-9CA8-8C093D08D68C}|Courses App\\Courses App.csproj|f:\\courses app\\courses app\\bl\\reposatory\\courserepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DABD8EE2-CFA4-4507-9CA8-8C093D08D68C}|Courses App\\Courses App.csproj|solutionrelative:courses app\\bl\\reposatory\\courserepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DABD8EE2-CFA4-4507-9CA8-8C093D08D68C}|Courses App\\Courses App.csproj|f:\\courses app\\courses app\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{DABD8EE2-CFA4-4507-9CA8-8C093D08D68C}|Courses App\\Courses App.csproj|solutionrelative:courses app\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DABD8EE2-CFA4-4507-9CA8-8C093D08D68C}|Courses App\\Courses App.csproj|f:\\courses app\\courses app\\bl\\error.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DABD8EE2-CFA4-4507-9CA8-8C093D08D68C}|Courses App\\Courses App.csproj|solutionrelative:courses app\\bl\\error.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DABD8EE2-CFA4-4507-9CA8-8C093D08D68C}|Courses App\\Courses App.csproj|f:\\courses app\\courses app\\bl\\apiexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DABD8EE2-CFA4-4507-9CA8-8C093D08D68C}|Courses App\\Courses App.csproj|solutionrelative:courses app\\bl\\apiexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DABD8EE2-CFA4-4507-9CA8-8C093D08D68C}|Courses App\\Courses App.csproj|f:\\courses app\\courses app\\bl\\interfaces\\ipayment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DABD8EE2-CFA4-4507-9CA8-8C093D08D68C}|Courses App\\Courses App.csproj|solutionrelative:courses app\\bl\\interfaces\\ipayment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DABD8EE2-CFA4-4507-9CA8-8C093D08D68C}|Courses App\\Courses App.csproj|f:\\courses app\\courses app\\courses app.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{DABD8EE2-CFA4-4507-9CA8-8C093D08D68C}|Courses App\\Courses App.csproj|solutionrelative:courses app\\courses app.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DABD8EE2-CFA4-4507-9CA8-8C093D08D68C}|Courses App\\Courses App.csproj|f:\\courses app\\courses app\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{DABD8EE2-CFA4-4507-9CA8-8C093D08D68C}|Courses App\\Courses App.csproj|solutionrelative:courses app\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\EL-Masria\\source\\repos\\Courses App\\Courses App\\Migrations\\20240413143011_build-db.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\EL-Masria\\source\\repos\\Courses App\\Courses App\\Migrations\\20240413042932_build-db.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DABD8EE2-CFA4-4507-9CA8-8C093D08D68C}|Courses App\\Courses App.csproj|f:\\courses app\\courses app\\dal\\models\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DABD8EE2-CFA4-4507-9CA8-8C093D08D68C}|Courses App\\Courses App.csproj|solutionrelative:courses app\\dal\\models\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DABD8EE2-CFA4-4507-9CA8-8C093D08D68C}|Courses App\\Courses App.csproj|f:\\courses app\\courses app\\dal\\models\\coursebranches.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DABD8EE2-CFA4-4507-9CA8-8C093D08D68C}|Courses App\\Courses App.csproj|solutionrelative:courses app\\dal\\models\\coursebranches.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DABD8EE2-CFA4-4507-9CA8-8C093D08D68C}|Courses App\\Courses App.csproj|f:\\courses app\\courses app\\bl\\reposatory\\branchrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DABD8EE2-CFA4-4507-9CA8-8C093D08D68C}|Courses App\\Courses App.csproj|solutionrelative:courses app\\bl\\reposatory\\branchrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DABD8EE2-CFA4-4507-9CA8-8C093D08D68C}|Courses App\\Courses App.csproj|f:\\courses app\\courses app\\migrations\\20240413145839_build-db.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DABD8EE2-CFA4-4507-9CA8-8C093D08D68C}|Courses App\\Courses App.csproj|solutionrelative:courses app\\migrations\\20240413145839_build-db.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DABD8EE2-CFA4-4507-9CA8-8C093D08D68C}|Courses App\\Courses App.csproj|f:\\courses app\\courses app\\dal\\database\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DABD8EE2-CFA4-4507-9CA8-8C093D08D68C}|Courses App\\Courses App.csproj|solutionrelative:courses app\\dal\\database\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DABD8EE2-CFA4-4507-9CA8-8C093D08D68C}|Courses App\\Courses App.csproj|f:\\courses app\\courses app\\bl\\reposatory\\orderrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DABD8EE2-CFA4-4507-9CA8-8C093D08D68C}|Courses App\\Courses App.csproj|solutionrelative:courses app\\bl\\reposatory\\orderrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DABD8EE2-CFA4-4507-9CA8-8C093D08D68C}|Courses App\\Courses App.csproj|f:\\courses app\\courses app\\bl\\vm\\confirmorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DABD8EE2-CFA4-4507-9CA8-8C093D08D68C}|Courses App\\Courses App.csproj|solutionrelative:courses app\\bl\\vm\\confirmorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DABD8EE2-CFA4-4507-9CA8-8C093D08D68C}|Courses App\\Courses App.csproj|f:\\courses app\\courses app\\bl\\vm\\instructorvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DABD8EE2-CFA4-4507-9CA8-8C093D08D68C}|Courses App\\Courses App.csproj|solutionrelative:courses app\\bl\\vm\\instructorvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MailSender.cs",
+              "DocumentMoniker": "F:\\Courses App\\Courses App\\BL\\Services\\MailSender.cs",
+              "RelativeDocumentMoniker": "Courses App\\BL\\Services\\MailSender.cs",
+              "ToolTip": "F:\\Courses App\\Courses App\\BL\\Services\\MailSender.cs",
+              "RelativeToolTip": "Courses App\\BL\\Services\\MailSender.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAAAAoAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-17T13:42:49.482Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "StudentCourseVM.cs",
+              "DocumentMoniker": "F:\\Courses App\\Courses App\\BL\\VM\\StudentCourseVM.cs",
+              "RelativeDocumentMoniker": "Courses App\\BL\\VM\\StudentCourseVM.cs",
+              "ToolTip": "F:\\Courses App\\Courses App\\BL\\VM\\StudentCourseVM.cs",
+              "RelativeToolTip": "Courses App\\BL\\VM\\StudentCourseVM.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAowBMAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-15T22:52:32.015Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "StudentRepo.cs",
+              "DocumentMoniker": "F:\\Courses App\\Courses App\\BL\\Reposatory\\StudentRepo.cs",
+              "RelativeDocumentMoniker": "Courses App\\BL\\Reposatory\\StudentRepo.cs",
+              "ToolTip": "F:\\Courses App\\Courses App\\BL\\Reposatory\\StudentRepo.cs",
+              "RelativeToolTip": "Courses App\\BL\\Reposatory\\StudentRepo.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAAABAAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-14T23:18:59.891Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "DomainProfile.cs",
+              "DocumentMoniker": "F:\\Courses App\\Courses App\\BL\\AutoMapper\\DomainProfile.cs",
+              "RelativeDocumentMoniker": "Courses App\\BL\\AutoMapper\\DomainProfile.cs",
+              "ToolTip": "F:\\Courses App\\Courses App\\BL\\AutoMapper\\DomainProfile.cs",
+              "RelativeToolTip": "Courses App\\BL\\AutoMapper\\DomainProfile.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAADwvxYAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-14T23:18:59.927Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Payment.cs",
+              "DocumentMoniker": "F:\\Courses App\\Courses App\\DAL\\Models\\Payment.cs",
+              "RelativeDocumentMoniker": "Courses App\\DAL\\Models\\Payment.cs",
+              "ToolTip": "F:\\Courses App\\Courses App\\DAL\\Models\\Payment.cs",
+              "RelativeToolTip": "Courses App\\DAL\\Models\\Payment.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAqwAgAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-14T23:18:59.846Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Branch.cs",
+              "DocumentMoniker": "F:\\Courses App\\Courses App\\DAL\\Models\\Branch.cs",
+              "RelativeDocumentMoniker": "Courses App\\DAL\\Models\\Branch.cs",
+              "ToolTip": "F:\\Courses App\\Courses App\\DAL\\Models\\Branch.cs",
+              "RelativeToolTip": "Courses App\\DAL\\Models\\Branch.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-14T23:18:59.825Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "instructor.cs",
+              "DocumentMoniker": "F:\\Courses App\\Courses App\\DAL\\Models\\instructor.cs",
+              "RelativeDocumentMoniker": "Courses App\\DAL\\Models\\instructor.cs",
+              "ToolTip": "F:\\Courses App\\Courses App\\DAL\\Models\\instructor.cs",
+              "RelativeToolTip": "Courses App\\DAL\\Models\\instructor.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAowBIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-14T23:18:59.841Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "F:\\Courses App\\Courses App\\Program.cs",
+              "RelativeDocumentMoniker": "Courses App\\Program.cs",
+              "ToolTip": "F:\\Courses App\\Courses App\\Program.cs",
+              "RelativeToolTip": "Courses App\\Program.cs",
+              "ViewState": "AQIAAPADAAAAAAAAAAAjwAAEAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-15T22:49:24.86Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "SendEmailVM.cs",
+              "DocumentMoniker": "F:\\Courses App\\Courses App\\BL\\VM\\SendEmailVM.cs",
+              "RelativeDocumentMoniker": "Courses App\\BL\\VM\\SendEmailVM.cs",
+              "ToolTip": "F:\\Courses App\\Courses App\\BL\\VM\\SendEmailVM.cs",
+              "RelativeToolTip": "Courses App\\BL\\VM\\SendEmailVM.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-17T18:06:58.122Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "IStudent.cs",
+              "DocumentMoniker": "F:\\Courses App\\Courses App\\BL\\Interfaces\\IStudent.cs",
+              "RelativeDocumentMoniker": "Courses App\\BL\\Interfaces\\IStudent.cs",
+              "ToolTip": "F:\\Courses App\\Courses App\\BL\\Interfaces\\IStudent.cs",
+              "RelativeToolTip": "Courses App\\BL\\Interfaces\\IStudent.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAcAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-14T23:18:59.921Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PaymentRepo.cs",
+              "DocumentMoniker": "F:\\Courses App\\Courses App\\BL\\Reposatory\\PaymentRepo.cs",
+              "RelativeDocumentMoniker": "Courses App\\BL\\Reposatory\\PaymentRepo.cs",
+              "ToolTip": "F:\\Courses App\\Courses App\\BL\\Reposatory\\PaymentRepo.cs",
+              "RelativeToolTip": "Courses App\\BL\\Reposatory\\PaymentRepo.cs",
+              "ViewState": "AQIAABcAAAAAAAAAAIA4wCcAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-14T23:18:59.864Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "StudentCourse.cs",
+              "DocumentMoniker": "F:\\Courses App\\Courses App\\DAL\\Models\\StudentCourse.cs",
+              "RelativeDocumentMoniker": "Courses App\\DAL\\Models\\StudentCourse.cs",
+              "ToolTip": "F:\\Courses App\\Courses App\\DAL\\Models\\StudentCourse.cs",
+              "RelativeToolTip": "Courses App\\DAL\\Models\\StudentCourse.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-14T23:18:59.854Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "PaymentVM.cs",
+              "DocumentMoniker": "F:\\Courses App\\Courses App\\BL\\VM\\PaymentVM.cs",
+              "RelativeDocumentMoniker": "Courses App\\BL\\VM\\PaymentVM.cs",
+              "ToolTip": "F:\\Courses App\\Courses App\\BL\\VM\\PaymentVM.cs",
+              "RelativeToolTip": "Courses App\\BL\\VM\\PaymentVM.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-14T23:18:59.916Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "IStudentCourse.cs",
+              "DocumentMoniker": "F:\\Courses App\\Courses App\\BL\\Interfaces\\IStudentCourse.cs",
+              "RelativeDocumentMoniker": "Courses App\\BL\\Interfaces\\IStudentCourse.cs",
+              "ToolTip": "F:\\Courses App\\Courses App\\BL\\Interfaces\\IStudentCourse.cs",
+              "RelativeToolTip": "Courses App\\BL\\Interfaces\\IStudentCourse.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAIA4wA0AAABBAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-15T05:52:09.826Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "StudentVM.cs",
+              "DocumentMoniker": "F:\\Courses App\\Courses App\\BL\\VM\\StudentVM.cs",
+              "RelativeDocumentMoniker": "Courses App\\BL\\VM\\StudentVM.cs",
+              "ToolTip": "F:\\Courses App\\Courses App\\BL\\VM\\StudentVM.cs",
+              "RelativeToolTip": "Courses App\\BL\\VM\\StudentVM.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAtwA0AAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-16T22:05:56.036Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "FileUploader.cs",
+              "DocumentMoniker": "F:\\Courses App\\Courses App\\BL\\Services\\FileUploader.cs",
+              "RelativeDocumentMoniker": "Courses App\\BL\\Services\\FileUploader.cs",
+              "ToolTip": "F:\\Courses App\\Courses App\\BL\\Services\\FileUploader.cs",
+              "RelativeToolTip": "Courses App\\BL\\Services\\FileUploader.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-14T23:18:59.859Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Student.cs",
+              "DocumentMoniker": "F:\\Courses App\\Courses App\\DAL\\Models\\Student.cs",
+              "RelativeDocumentMoniker": "Courses App\\DAL\\Models\\Student.cs",
+              "ToolTip": "F:\\Courses App\\Courses App\\DAL\\Models\\Student.cs",
+              "RelativeToolTip": "Courses App\\DAL\\Models\\Student.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-14T23:18:59.85Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Courses App.csproj",
+              "DocumentMoniker": "F:\\Courses App\\Courses App\\Courses App.csproj",
+              "RelativeDocumentMoniker": "Courses App\\Courses App.csproj",
+              "ToolTip": "F:\\Courses App\\Courses App\\Courses App.csproj",
+              "RelativeToolTip": "Courses App\\Courses App.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-04-14T23:18:59.882Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "StudentCourseRepo.cs",
+              "DocumentMoniker": "F:\\Courses App\\Courses App\\BL\\Reposatory\\StudentCourseRepo.cs",
+              "RelativeDocumentMoniker": "Courses App\\BL\\Reposatory\\StudentCourseRepo.cs",
+              "ToolTip": "F:\\Courses App\\Courses App\\BL\\Reposatory\\StudentCourseRepo.cs",
+              "RelativeToolTip": "Courses App\\BL\\Reposatory\\StudentCourseRepo.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAADgAAABQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-15T05:53:38.935Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "CourseVM.cs",
+              "DocumentMoniker": "F:\\Courses App\\Courses App\\BL\\VM\\CourseVM.cs",
+              "RelativeDocumentMoniker": "Courses App\\BL\\VM\\CourseVM.cs",
+              "ToolTip": "F:\\Courses App\\Courses App\\BL\\VM\\CourseVM.cs",
+              "RelativeToolTip": "Courses App\\BL\\VM\\CourseVM.cs",
+              "ViewState": "AQIAABsAAAAAAAAAAADwvyUAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-14T23:18:59.886Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "CourseRepo.cs",
+              "DocumentMoniker": "F:\\Courses App\\Courses App\\BL\\Reposatory\\CourseRepo.cs",
+              "RelativeDocumentMoniker": "Courses App\\BL\\Reposatory\\CourseRepo.cs",
+              "ToolTip": "F:\\Courses App\\Courses App\\BL\\Reposatory\\CourseRepo.cs",
+              "RelativeToolTip": "Courses App\\BL\\Reposatory\\CourseRepo.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAswAsAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-14T23:18:59.873Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "ApiException.cs",
+              "DocumentMoniker": "F:\\Courses App\\Courses App\\BL\\ApiException.cs",
+              "RelativeDocumentMoniker": "Courses App\\BL\\ApiException.cs",
+              "ToolTip": "F:\\Courses App\\Courses App\\BL\\ApiException.cs",
+              "RelativeToolTip": "Courses App\\BL\\ApiException.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-15T06:03:31.885Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "F:\\Courses App\\Courses App\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Courses App\\Properties\\launchSettings.json",
+              "ToolTip": "F:\\Courses App\\Courses App\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Courses App\\Properties\\launchSettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACQAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-04-15T06:11:32.394Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Error.cs",
+              "DocumentMoniker": "F:\\Courses App\\Courses App\\BL\\Error.cs",
+              "RelativeDocumentMoniker": "Courses App\\BL\\Error.cs",
+              "ToolTip": "F:\\Courses App\\Courses App\\BL\\Error.cs",
+              "RelativeToolTip": "Courses App\\BL\\Error.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-15T06:04:13.773Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "IPayment.cs",
+              "DocumentMoniker": "F:\\Courses App\\Courses App\\BL\\Interfaces\\IPayment.cs",
+              "RelativeDocumentMoniker": "Courses App\\BL\\Interfaces\\IPayment.cs",
+              "ToolTip": "F:\\Courses App\\Courses App\\BL\\Interfaces\\IPayment.cs",
+              "RelativeToolTip": "Courses App\\BL\\Interfaces\\IPayment.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAwAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-14T23:18:59.911Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Courses App",
+              "DocumentMoniker": "F:\\Courses App\\Courses App\\Courses App.csproj",
+              "RelativeDocumentMoniker": "Courses App\\Courses App.csproj",
+              "ToolTip": "F:\\Courses App\\Courses App\\Courses App.csproj",
+              "RelativeToolTip": "Courses App\\Courses App.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-04-14T23:29:36.666Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "F:\\Courses App\\Courses App\\appsettings.json",
+              "RelativeDocumentMoniker": "Courses App\\appsettings.json",
+              "ToolTip": "F:\\Courses App\\Courses App\\appsettings.json",
+              "RelativeToolTip": "Courses App\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAA9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-04-14T23:18:59.954Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "CourseBranches.cs",
+              "DocumentMoniker": "F:\\Courses App\\Courses App\\DAL\\Models\\CourseBranches.cs",
+              "RelativeDocumentMoniker": "Courses App\\DAL\\Models\\CourseBranches.cs",
+              "ToolTip": "F:\\Courses App\\Courses App\\DAL\\Models\\CourseBranches.cs",
+              "RelativeToolTip": "Courses App\\DAL\\Models\\CourseBranches.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-14T23:18:59.837Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Course.cs",
+              "DocumentMoniker": "F:\\Courses App\\Courses App\\DAL\\Models\\Course.cs",
+              "RelativeDocumentMoniker": "Courses App\\DAL\\Models\\Course.cs",
+              "ToolTip": "F:\\Courses App\\Courses App\\DAL\\Models\\Course.cs",
+              "RelativeToolTip": "Courses App\\DAL\\Models\\Course.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAIBQwBgAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-14T23:18:59.833Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "BranchRepo.cs",
+              "DocumentMoniker": "F:\\Courses App\\Courses App\\BL\\Reposatory\\BranchRepo.cs",
+              "RelativeDocumentMoniker": "Courses App\\BL\\Reposatory\\BranchRepo.cs",
+              "ToolTip": "F:\\Courses App\\Courses App\\BL\\Reposatory\\BranchRepo.cs",
+              "RelativeToolTip": "Courses App\\BL\\Reposatory\\BranchRepo.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAIBQwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-14T23:18:59.869Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "20240413145839_build-db.cs",
+              "DocumentMoniker": "F:\\Courses App\\Courses App\\Migrations\\20240413145839_build-db.cs",
+              "RelativeDocumentMoniker": "Courses App\\Migrations\\20240413145839_build-db.cs",
+              "ToolTip": "F:\\Courses App\\Courses App\\Migrations\\20240413145839_build-db.cs",
+              "RelativeToolTip": "Courses App\\Migrations\\20240413145839_build-db.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-14T23:18:59.878Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "DataContext.cs",
+              "DocumentMoniker": "F:\\Courses App\\Courses App\\DAL\\Database\\DataContext.cs",
+              "RelativeDocumentMoniker": "Courses App\\DAL\\Database\\DataContext.cs",
+              "ToolTip": "F:\\Courses App\\Courses App\\DAL\\Database\\DataContext.cs",
+              "RelativeToolTip": "Courses App\\DAL\\Database\\DataContext.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAIBJwA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-14T23:18:59.897Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "20240413143011_build-db.cs",
+              "DocumentMoniker": "C:\\Users\\EL-Masria\\source\\repos\\Courses App\\Courses App\\Migrations\\20240413143011_build-db.cs",
+              "ToolTip": "C:\\Users\\EL-Masria\\source\\repos\\Courses App\\Courses App\\Migrations\\20240413143011_build-db.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-13T14:30:11.635Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "20240413042932_build-db.cs",
+              "DocumentMoniker": "C:\\Users\\EL-Masria\\source\\repos\\Courses App\\Courses App\\Migrations\\20240413042932_build-db.cs",
+              "ToolTip": "C:\\Users\\EL-Masria\\source\\repos\\Courses App\\Courses App\\Migrations\\20240413042932_build-db.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-13T04:29:32.709Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "OrderRepo.cs",
+              "DocumentMoniker": "F:\\Courses App\\Courses App\\BL\\Reposatory\\OrderRepo.cs",
+              "RelativeDocumentMoniker": "Courses App\\BL\\Reposatory\\OrderRepo.cs",
+              "ToolTip": "F:\\Courses App\\Courses App\\BL\\Reposatory\\OrderRepo.cs",
+              "RelativeToolTip": "Courses App\\BL\\Reposatory\\OrderRepo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAABBwBIAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-14T23:18:59.94Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "ConfirmOrder.cs",
+              "DocumentMoniker": "F:\\Courses App\\Courses App\\BL\\VM\\ConfirmOrder.cs",
+              "RelativeDocumentMoniker": "Courses App\\BL\\VM\\ConfirmOrder.cs",
+              "ToolTip": "F:\\Courses App\\Courses App\\BL\\VM\\ConfirmOrder.cs",
+              "RelativeToolTip": "Courses App\\BL\\VM\\ConfirmOrder.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-14T23:18:59.947Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "instructorVM.cs",
+              "DocumentMoniker": "F:\\Courses App\\Courses App\\BL\\VM\\instructorVM.cs",
+              "RelativeDocumentMoniker": "Courses App\\BL\\VM\\instructorVM.cs",
+              "ToolTip": "F:\\Courses App\\Courses App\\BL\\VM\\instructorVM.cs",
+              "RelativeToolTip": "Courses App\\BL\\VM\\instructorVM.cs",
+              "ViewState": "AQIAAB0AAAAAAAAAAIBJwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-14T23:18:59.962Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

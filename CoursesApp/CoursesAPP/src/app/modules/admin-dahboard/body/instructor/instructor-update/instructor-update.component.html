@@ -1,0 +1,97 @@
+<div style="display: flex;justify-content: center;align-items: center;">
+
+
+    <form style="width: 80%;" [formGroup]="myform" (ngSubmit)="Update()" enctype="multipart/form-data">
+        <h1 class="text-center text-danger">Update Course </h1>
+
+        <div class="form-group mb-3">
+            <label>Name</label>
+            <input type="text" class="form-control" formControlName="name" placeholder="Enter Name" [value]="instructordata.name">
+            <div *ngIf="this.myform.get('name')?.invalid && this.myform.get('name')?.touched" class="text-danger">
+                <span class="d-block mb-3" *ngIf="this.myform.get('name')?.errors?.['required']">
+                Name is Required
+                </span>
+                <span class="d-block" *ngIf="this.myform.get('name')?.errors?.['minlength']">
+                    Min Length is 5 chars
+                    </span>
+                <span class="d-block" *ngIf="this.myform.get('name')?.errors?.['maxlength']">
+                        Max Length is 20 chars
+                        </span>
+            </div>
+        </div>
+
+
+        <div class="form-group mb-3">
+            <label>Email</label>
+            <input class="form-control" formControlName="email" type="text" placeholder="Enter email" />
+            <div *ngIf="this.myform.get('email')?.invalid && this.myform.get('email')?.touched" class="text-danger">
+                <span class="d-block mb-3" *ngIf="this.myform.get('email')?.errors?.['required']">
+                    email is Required
+                </span>
+                <span class="d-block mb-3" *ngIf="this.myform.get('email')?.errors?.['email']">
+                    Enter valid Email
+                </span>
+
+            </div>
+        </div>
+        <div class="form-group mb-3">
+            <label>Phone</label>
+            <input type="text" class="form-control" formControlName="phone" placeholder="Enter Price">
+            <div *ngIf="this.myform.get('phone')?.invalid && this.myform.get('phone')?.touched" class="text-danger">
+                <span class="d-block mb-3" *ngIf="this.myform.get('phone')?.errors?.['required']">
+                    phone is Required
+                </span>
+
+            </div>
+        </div>
+        <div class="form-group mb-3">
+            <label>Birth Date</label>
+            <input type="date" class="form-control" formControlName="birthdate" placeholder="dd-mm-yyyy">
+            <div *ngIf="this.myform.get('birthdate')?.invalid && this.myform.get('birthdate')?.touched" class="text-danger">
+                <span class="d-block mb-3" *ngIf="this.myform.get('birthdate')?.errors?.['required']">
+                    birth date is Required
+                </span></div>
+        </div>
+
+
+        <div class="form-group mb-3">
+            <label>Current Image</label><br>
+            <img src="http://localhost:44313/Resources/{{instructordata.imgname}}" width="200" height="150">
+
+
+        </div>
+
+        <div class="form-group mb-3">
+            <label for="exampleInputEmail1">Current CV</label><br>
+
+            <a href="http://localhost:44313/Resources/{{instructordata.cvname}}" download="download" class="btn btn-danger">Download CV</a>
+        </div>
+        <div class="form-group mb-3">
+            <label>Image</label><br>
+
+            <input type="file" class="form-control" formControlName="image" (change)="onimgFileChange($event)">
+            <div *ngIf="(isimgFileUploaded && this.myform.get('image')?.invalid && (this.myform.get('image')?.touched||this.myform.get('image')?.dirty)||imagevalidate)" class="text-danger">
+                <span class="d-block mb-3" *ngIf="this.myform.get('image')?.errors?.['required'] ">
+                Image is Required
+                </span>
+            </div>
+        </div>
+        <div class="form-group mb-3">
+            <label>CV</label><br>
+
+            <input type="file" class="form-control" (change)="oncvFileChange($event)">
+            <div *ngIf="(isimgFileUploaded && this.myform.get('cv')?.invalid && (this.myform.get('cv')?.touched||this.myform.get('cv')?.dirty)||cvvalidate)" class="text-danger">
+                <span class="d-block mb-3" *ngIf="this.myform.get('cv')?.errors?.['required'] ">
+                cv is Required
+                </span>
+            </div>
+        </div>
+
+
+        <div style="display: flex;justify-content:center">
+
+
+            <button type="submit" class="btn btn-primary">Update</button>
+        </div>
+    </form>
+</div>

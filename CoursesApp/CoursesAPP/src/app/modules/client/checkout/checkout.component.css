@@ -1,0 +1,82 @@
+.window {
+    background: linear-gradient(#c9e5e9, #ccddf9);
+    height: fit-content;
+    margin-top: 0;
+}
+
+.window .container {
+    background-color: white;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+.order-summary p {
+    font-size: 18px;
+}
+
+.order {
+    padding: 20px;
+}
+
+.checkout-form {
+    background-color: #4488dd;
+    padding: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 0px;
+}
+
+.checkout-form h1 {
+    color: white;
+    text-align: center;
+}
+
+.checkout-form label {
+    color: white;
+    margin: 20px 0px;
+}
+
+.checkout-form .form-control:focus {
+    border: 1px solid black;
+    outline: 1px solid white;
+}
+
+.checkout-form .form-control {
+    background: rgba(255, 255, 255, 0.1);
+    color: black;
+    ;
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
+    border: none;
+}
+
+.checkout-form button {
+    width: 100%;
+    margin-top: 50px;
+}
+
+.CardNumberField-input-wrapper .InputContainer .InputElement {
+    position: absolute;
+    top: 0;
+    color: white !important;
+}
+
+@media screen and (max-width:992px) {
+    .checkout-form {
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+        border-top-right-radius: 0px;
+    }
+}
+
+@media screen and (min-width:992px) {
+    .window {
+        height: 100vh;
+    }
+}

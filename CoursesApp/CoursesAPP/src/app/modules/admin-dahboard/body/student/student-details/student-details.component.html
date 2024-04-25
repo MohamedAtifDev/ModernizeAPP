@@ -1,0 +1,52 @@
+<div style="display: flex;justify-content: center;align-items: center;">
+
+
+    <form style="width: 80%;">
+        <h1 class="text-center text-danger">{{studentdata.name}}  Details</h1>
+        <div class="form-group mb-3">
+            <label for="exampleInputEmail1">ID</label>
+            <input type="text" class="form-control" disabled [value]="studentdata.id">
+
+        </div>
+        <div class="form-group mb-3">
+            <label for="exampleInputEmail1">Name</label>
+            <input type="text" class="form-control" disabled [value]="studentdata.name">
+
+        </div>
+        <div class="form-group mb-3">
+            <label for="exampleInputEmail1">Email</label>
+            <input type="text" class="form-control" disabled [value]="studentdata.email">
+
+        </div>
+
+        <div class="form-group mb-3">
+            <label for="exampleInputEmail1">Phone</label>
+            <input type="text" class="form-control" disabled [value]="studentdata.phone">
+
+        </div>
+        <div  class="text-center my-2" *ngIf="studentdata.studentCourses.length!=0">
+            <h3 class="text-danger mb-1">Assigned To Courses</h3>
+            <table class="table table-responsive table-hover table-striped table-borderd">
+            
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Name</th>
+                        <th>Assignment Date</th>
+                    </tr>
+                    <tr *ngFor="let e of studentdata.studentCourses">
+                    <td>{{e.courseid}}</td>
+                    <td>{{e.course.name}}</td>
+                    <td>{{e.assigmentDate|date}}</td>
+                    </tr>
+                </thead>
+            </table>
+            
+            </div>
+            
+        <div style="display: flex;justify-content:center">
+
+            <a routerLink="/Admin/Student/Index" class="btn btn-primary">Back To Data</a>
+        </div>
+    </form>
+</div>

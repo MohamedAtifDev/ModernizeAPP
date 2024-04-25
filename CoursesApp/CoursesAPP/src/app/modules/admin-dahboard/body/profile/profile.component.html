@@ -1,0 +1,28 @@
+<table class="table table bordered table-hover table-striped">
+    <thead class="thead-dark">
+
+
+        <tr>
+            <th>ID</th>
+            <th>Email</th>
+            <th>UserName</th>
+            <th>Rule</th>
+            <th>Phone</th>
+
+        </tr>
+    </thead>
+    <tbody>
+
+
+        <tr>
+            <td>{{user.id}}</td>
+            <td>{{user.email}}</td>
+            <td>{{user.userName}}</td>
+            <td *ngIf="roles.length!=0" >
+                <p *ngFor="let role of roles">{{role}} </p>
+            </td>
+            <td *ngIf="roles.length==0">Admin</td>
+            <td>{{user.phoneNumber}}</td>
+        </tr>
+    </tbody>
+</table>

@@ -1,0 +1,58 @@
+<div style="display: flex;justify-content: center;align-items: center;">
+
+
+    <form style="width: 80%;">
+        <h1 class="text-center text-danger">{{instructordata.name}} instructor Details</h1>
+        <div class="form-group mb-3">
+            <label for="exampleInputEmail1">ID</label>
+            <input type="text" class="form-control" disabled [value]="instructordata.id">
+
+        </div>
+        <div class="form-group mb-3">
+            <label for="exampleInputEmail1">Email</label>
+            <input type="text" class="form-control" disabled [value]="instructordata.email">
+
+        </div>
+        <div class="form-group mb-3">
+            <label for="exampleInputEmail1">Phone</label>
+            <input type="number" class="form-control" disabled [value]="instructordata.phone">
+
+        </div>
+        <div class="form-group mb-3">
+            <label for="exampleInputEmail1">Name</label>
+            <input type="text" class="form-control" disabled [value]="instructordata.name">
+
+        </div>
+        <div class="form-group mb-3">
+            <label for="exampleInputEmail1">Image</label><br>
+
+            <img src="http://localhost:44313/Resources/{{instructordata.imgname}}" width="200" height="150">
+        </div>
+
+
+        <div class="form-group mb-3">
+            <label for="exampleInputEmail1">CV</label><br>
+
+            <a href="http://localhost:44313/Resources/{{instructordata.cvname}}" download="download" class="btn btn-danger">Download CV</a>
+        </div>
+
+        <div class="form-group mb-3">
+            <label for="exampleInputEmail1">BirthDate</label>
+            <input type="date" class="form-control" disabled [value]="instructordata.birthdate|date:'yyyy-MM-dd'">
+
+        </div>
+
+
+        <div class="form-group mb-3">
+            <label for="exampleInputEmail1">Course name</label>
+            <input type="text" class="form-control" disabled placeholder="No Courses yet" [value]="instructordata.course.name">
+
+        </div>
+
+        <div style="display: flex;justify-content:center">
+
+
+            <a routerLink="/Admin/Instructor/Index" class="btn btn-primary">Back To Data</a>
+        </div>
+    </form>
+</div>

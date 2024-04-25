@@ -1,0 +1,591 @@
+<!--start Navbar-->
+<nav class=" fixed-top navbar navbar-expand-lg  navbar-light" #navbar>
+    <div class="container">
+        <a class="navbar-brand d-flex align-items-center gap-2" href="#"><img src="assets/images/logos/favicon.png">Modernize</a>
+        <div class="d-flex justify-content-end gap-0">
+
+
+            <button type="button" class="navbar-toggler d-flex  d-lg-none justify-content-end align-items-center order-1 order-sm-1 order-lg-0 p-0" (click)="ShowMobileNavbar()">
+        <span class="navbar-toggler-icon" >
+
+        </span>
+      </button>
+
+            <div class="collapse navbar-collapse d-lg-flex justify-content-lg-end" id="collapsibleNavbar">
+                <ul class="navbar-nav">
+
+                    <li class="nav-item ">
+                        <a class="nav-link active" href="/Client/Index#Landing">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/Client/Index#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/Client/Index#courses">Courses</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/Client/Index#Instructors">Instructors</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="/Client/Index#contact">Contact</a>
+                    </li>
+
+                </ul>
+
+            </div>
+            <button class="btn start  order-0 order-sm-0 order-lg-1">Get Started</button>
+        </div>
+
+    </div>
+</nav>
+
+
+
+
+<div class="navbar-mobile" #MobileNavbar>
+
+    <i class="fa fa-times close" aria-hidden="true" (click)="hideMobileNavbar()"></i>
+    <ul class="navbar-nav">
+
+        <li class="nav-item ">
+            <a class="nav-link active " href="/Client/Index#Landing">Home</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="/Client/Index#about">About</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="/Client/Index#courses">Courses</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="/Client/Index#Instructors">Instructors</a>
+        </li>
+
+        <li class="nav-item">
+            <a class="nav-link" href="/Client/Index#contact">Contact</a>
+        </li>
+
+    </ul>
+</div>
+<!--end navbar-->
+
+<!--start landing-->
+<section class="landing d-flex align-items-center" id="Landing">
+    <div class="overlay ">
+
+    </div>
+    <div class="container" data-aos="zoom-in" style="z-index: 2;">
+        <div class="content">
+            <h1 class="text-white">Learning Today,</h1>
+            <h1 class="text-white"> Leading Tomorrow</h1>
+            <p class="text-white">We are Agency For programming & IT Courses</p>
+            <button>Get Started</button>
+
+        </div>
+    </div>
+</section>
+<!--end landing-->
+
+<!--start about-->
+<section class="about" id="about">
+    <div class="container" data-aos="fade-up" data-aos-once="true">
+        <div class="row">
+            <div class="col-12 order-1 mt-4 mt-lg-0 order-lg-0 col-lg-6 d-flex flex-column justify-content-center content">
+                <h2>Information About Our Agency</h2>
+                <p>Modernize Agenct For Programming , Machine Learning & IT Courses</p>
+                <ul class="list-unstyled">
+                    <li class="d-flex gap-2 align-items-center mb-3">
+                        <i class="fa fa-check text-primary" aria-hidden="true"></i>
+                        <p style="margin-bottom: 0;">Fully equipped halls to receive students</p>
+                    </li>
+                    <li class="d-flex gap-2 align-items-center mb-3">
+                        <i class="fa fa-check text-primary" aria-hidden="true"></i>
+                        <p style="margin-bottom: 0;">The latest means of explanation and clarification</p>
+                    </li>
+                    <li class="d-flex gap-2 align-items-center mb-3">
+                        <i class="fa fa-check text-primary" aria-hidden="true"></i>
+                        <p style="margin-bottom: 0;">Accurate follow-up of students’ level</p>
+                    </li>
+
+                </ul>
+                <p class="mt-2">Modernize agency has a Pionner role in technology learning field and play important role in IT Fundamentals Knowledge in Egypt , Middle east and some European Countries and some Asian Countries and have students from all over the world
+                </p>
+            </div>
+            <div class="col-12 col-lg-6 order-0 order-lg-1 " data-aos="fade-down" data-aos-once="true">
+                <img class="img-fluid" src="assets/images/backgrounds/about-bg.jpg">
+            </div>
+        </div>
+    </div>
+
+    <div class="counter" data-aos="zoom-in" data-aos-once="true">
+        <div class="container">
+
+
+            <div class="row">
+                <div class="col-6 col-lg-3 d-flex flex-column justify-content-center align-items-center">
+
+                    <span [countUp]="5000" [options]="opts">0</span>
+                    <p>Students</p>
+                </div>
+                <div class="col-6 col-lg-3 d-flex flex-column justify-content-center align-items-center">
+                    <span [countUp]="20" [options]="opts">0</span>
+                    <p>Branches</p>
+                </div>
+                <div class="col-6 col-lg-3 d-flex flex-column justify-content-center align-items-center">
+                    <span [countUp]="30" [options]="opts">0</span>
+                    <p>Courses</p>
+                </div>
+                <div class="col-6 col-lg-3 d-flex flex-column justify-content-center align-items-center">
+                    <span [countUp]="10" [options]="opts">0</span>
+                    <p>Instructors</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="why-modernize">
+        <div class="container">
+            <div class=" row ">
+                <div class="col-12 col-lg-4">
+
+                    <div class="why-content ">
+                        <h2>Why Choose Modernize?</h2>
+                        <p>Modernize is high level agency that provide high level Programming , Machine Learning , Data Science , Networks and Other Tracks with fully Prepared Halls and Professional Instructors and Multiple Branches in Egypt , Asia ,Europe
+                            Continent and others All over the World </p>
+                        <div class="text-center mt-4 ">
+
+
+                            <button>Lean More <i class="fa fa-arrow-right " aria-hidden="true "></i></button>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-12 col-lg-8 d-flex align-items-center mt-4  mt-xl-0 icon-boxes ">
+                    <div class="container-fluid px-0">
+                        <div class="row ">
+                            <div class="col-12 col-xl-4  d-flex align-items-stretch ">
+
+                                <div class="icon-box ">
+
+                                    <div>
+                                        <i class="fa fa-credit-card " aria-hidden="true "></i>
+                                    </div>
+
+                                    <h3>Payment Methods</h3>
+                                    <p>We Support diffrenet Payment Methods such Wallets , credit cards , Vodafone cash and others</p>
+
+                                </div>
+                            </div>
+                            <div class="col-12 mt-3 mt-xl-0  col-xl-4 align-items-stretch ">
+                                <div class="icon-box ">
+                                    <div>
+                                        <i class="fa fa-cube " aria-hidden="true "></i>
+                                    </div>
+
+                                    <h3>Our Database</h3>
+                                    <p>We Have Database for All Students and instructors and Courses</p>
+                                </div>
+                            </div>
+                            <div class="col-12 mt-3 mt-xl-0  col-xl-4  align-items-stretch ">
+
+                                <div class="icon-box ">
+
+                                    <div>
+                                        <i class="fa fa-picture-o " aria-hidden="true "></i>
+                                    </div>
+
+                                    <h3>Our Image</h3>
+                                    <p>We Always want to enhance my image in our clients eyes to attract more clients</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="features">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-4 col-lg-3 mb-4 ">
+                    <div class="d-flex gap-2 align-items-center feature">
+                        <i class='bx bx-store-alt' style="color: #ffbb2c;"></i>
+                        <p class="mb-0">Prepared Halls</p>
+                    </div>
+
+                </div>
+                <div class="col-12 col-md-4 col-lg-3 mb-4 ">
+                    <div class="d-flex gap-2 align-items-center feature">
+                        <i class='bx bx-bar-chart-alt-2' style="color: #5578ff;"></i>
+                        <p class="mb-0">Statistics</p>
+                    </div>
+
+                </div>
+                <div class="col-12 col-md-4 col-lg-3 mb-4">
+                    <div class="d-flex gap-2 align-items-center feature">
+                        <i class='bx bxs-calendar' style="    color: #e80368;"></i>
+                        <p class="mb-0">OnTime</p>
+                    </div>
+
+                </div>
+                <div class="col-12 col-md-4 col-lg-3 mb-4">
+                    <div class="d-flex gap-2 align-items-center feature">
+                        <i class='bx bx-paint-roll' style="    color: #e361ff;"></i>
+                        <p class="mb-0">Prepartions</p>
+                    </div>
+
+                </div>
+                <div class="col-12 col-md-4 col-lg-3 mb-4 ">
+                    <div class="d-flex gap-2 align-items-center feature">
+                        <i class='bx bxs-data' style="    color: #47aeff;"></i>
+                        <p class="mb-0">Store Data</p>
+                    </div>
+
+                </div>
+                <div class="col-12 col-md-4 col-lg-3 mb-4 ">
+                    <div class="d-flex gap-2 align-items-center feature">
+                        <i class='bx bx-loader-circle' style="color: #ffa76e;"></i>
+                        <p class="mb-0">No Waiting</p>
+                    </div>
+
+                </div>
+                <div class="col-12 col-md-4 col-lg-3 mb-4">
+                    <div class="d-flex gap-2 align-items-center feature">
+                        <i class='bx bx-receipt' style="color: #11dbcf;"></i>
+                        <p class="mb-0">Receipts</p>
+                    </div>
+
+                </div>
+                <div class="col-12 col-md-4 col-lg-3 mb-4 ">
+                    <div class="d-flex gap-2 align-items-center feature">
+                        <i class='bx bx-purchase-tag-alt' style="color: #4233ff;"></i>
+                        <p class="mb-0">Purchasing</p>
+                    </div>
+
+                </div>
+                <div class="col-12 col-md-4 col-lg-3 mb-4 ">
+                    <div class="d-flex gap-2 align-items-center feature">
+                        <i class='bx bx-anchor' style="color: #b2904f;"></i>
+                        <p class="mb-0">Navigation</p>
+                    </div>
+
+                </div>
+                <div class="col-12 col-md-4 col-lg-3 mb-4 ">
+                    <div class="d-flex gap-2 align-items-center feature">
+                        <i class='bx bx-chat' style="color: #b20969;"></i>
+                        <p class="mb-0">Chating</p>
+                    </div>
+
+                </div>
+                <div class="col-12 col-md-4 col-lg-3 mb-4 ">
+                    <div class="d-flex gap-2 align-items-center feature">
+                        <i class='bx bx-wifi' style="color: #ff5828;"></i>
+                        <p class="mb-0">Wifi</p>
+                    </div>
+
+                </div>
+                <div class="col-12 col-md-4 col-lg-3 mb-4 ">
+                    <div class="d-flex gap-2 align-items-center feature">
+                        <i class='bx bx-fingerprint' style="color: #29cc61;"></i>
+                        <p class="mb-0">Authentication</p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!--end About-->
+
+<!--start Courses-->
+<section class="courses" id="courses">
+    <div class="container">
+        <div class="header">
+            <p>Courses</p>
+            <h1>Popular Courses</h1>
+        </div>
+        <div class="body">
+
+
+            <splide [options]="options">
+                <splide-slide *ngFor="let course of courses">
+                    <div class="card slide" style="height: 100%">
+
+
+
+                        <img src="http://localhost:44313/Resources/{{course.imgname}}" class="card-img-top" style="height: 200px;width: 100%;">
+                        <div class="card-body">
+                            <h5 class="card-title">{{course.name}}</h5>
+                            <p class="card-text">{{course.description}}</p>
+                            <div class="info d-flex justify-content-between">
+                                <p>{{course.price}} $</p>
+                                <div class="stars">
+                                    <i class='bx bxs-star'></i>
+                                    <i class='bx bxs-star'></i>
+                                    <i class='bx bxs-star'></i>
+                                    <i class='bx bxs-star'></i>
+                                    <i class='bx bxs-star'></i>
+                                </div>
+                            </div>
+                            <a *ngIf="isCourseAssignedByStudent(course.id)==-1" routerLink="/Client/Checkout/{{course.id}}" class="btn btn-primary">Enroll Now!</a>
+                        <p *ngIf="isCourseAssignedByStudent(course.id)!=-1" class="text-danger text-center">You Already Assigned To That Course </p>
+                        </div>
+
+                    </div>
+
+
+                </splide-slide>
+            </splide>
+        </div>
+
+
+    </div>
+
+</section>
+
+<!--end Courses-->
+<!--start Instructors-->
+<section class="Instructors" id="Instructors">
+    <div class="container">
+        <div class="header">
+            <p>Instructors</p>
+            <h1>Our Instructors</h1>
+        </div>
+        <div class="body">
+
+
+            <splide [options]="instuctorSlideoptions">
+                <splide-slide *ngFor="let Instructor of instructors">
+                    <div class="card slide" style="height: 100%">
+
+
+
+                        <img src="http://localhost:44313/Resources/{{Instructor.imgname}}" class="card-img-top" style="height: 200px;width: 100%;">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">{{Instructor.name}}</h5>
+                            <p class="card-text">{{Instructor.course?.name}} Instructor</p>
+                            <div class="social d-flex justify-content-center mb-4">
+                                <div>
+                                    <i class='bx bxl-facebook'></i>
+                                </div>
+                                <div>
+                                    <i class='bx bxl-twitter'></i>
+                                </div>
+                                <div>
+                                    <i class='bx bxl-github'></i>
+                                </div>
+                            </div>
+                            <a href="http://localhost:44313/Resources/{{Instructor.cvname}}" download="download" class="btn btn-primary"> Download CV</a>
+                        </div>
+
+                    </div>
+
+
+                </splide-slide>
+            </splide>
+        </div>
+
+
+    </div>
+
+</section>
+<!--end Instructors-->
+<!--start Contact-->
+<section class="contact my-4" id="contact">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12 px-0">
+                <iframe src="http://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d27350.19180897133!2d30.470325249999995!3d31.03254635!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sar!2seg!4v1711232969499!5m2!1sar!2seg" height="450" style="border:0;width: 100%;"
+                    allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div class="col-12 mt-4">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-lg-4 flex-column">
+                            <div class="contact-item d-flex gap-3 align-items-center ">
+                                <div class="contact-item-logo">
+                                    <i class='bx bx-current-location'></i>
+                                </div>
+                                <div class="contact-item-info">
+                                    <h2>Address</h2>
+                                    <p>Salah El-Deen street Damanhour </p>
+                                </div>
+                            </div>
+                            <div class="contact-item d-flex gap-3 align-items-center mt-4">
+                                <div class="contact-item-logo">
+                                    <i class='bx bxs-phone-call'></i>
+                                </div>
+                                <div class="contact-item-info">
+                                    <h2>Call Us</h2>
+                                    <p>+20 01065578456 </p>
+                                </div>
+                            </div>
+                            <div class="contact-item d-flex gap-3 align-items-center mt-4">
+                                <div class="contact-item-logo">
+                                    <i class='bx bx-envelope'></i>
+                                </div>
+                                <div class="contact-item-info">
+                                    <h2>Mail Us</h2>
+                                    <p>atiffahmykhamis@gmail.com </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-12 col-lg-8 mt-5 mt-lg-0">
+                            <form>
+                                <div class="container-fluid">
+                                    <div class="row">
+                                        <div class="col-12 col-md-6  pe-0 pe-md-3 ps-0 ">
+                                            <input type="text" class="form-control" placeholder="Your Name">
+                                        </div>
+                                        <div class="col-12 col-md-6 mt-3 mt-md-0  ps-0 pe-0">
+                                            <input type="Email" class="form-control" placeholder="Your Email">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="mt-3">
+                                    <input type="text" class="form-control" placeholder="Subject">
+                                </div>
+                                <div class="mt-3">
+                                    <textarea class="form-control" placeholder="Message"></textarea>
+                                </div>
+                                <div class="d-flex justify-content-center mt-3">
+                                    <button type="submit" class="d-flex gap-1 align-items-center justify-content-center"><p class="mb-0">SendMessage</p> <i class='bx bxl-telegram mt-1'></i></button>
+                                </div>
+                            </form>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</section>
+<!--end contact-->
+
+<!--<form [formGroup]="myform">
+    <input type="password" class="form-control" formControlName="password">
+    <div *ngIf="myform.get('password')?.touched && myform.get('password')?.invalid">
+        <small class="text-danger" *ngIf="myform.get('password')?.errors?.['required']">required</small>
+    </div>
+    <input type="password" class="form-control" formControlName="confirmPassword">
+    <div *ngIf="(myform.get('confirmPassword')?.touched && myform.get('confirmPassword')?.invalid)||(myform?.errors?.['unmatched'])">
+        <small class="text-danger" *ngIf="myform.get('confirmPassword')?.errors?.['required']">required</small>
+        <small class="text-danger" *ngIf="myform?.errors?.['unmatched']">umnatced</small>
+    </div>
+    <input type="text" name="" formControlName="name" class="form-control" id="">
+
+    <div *ngIf="(myform.get('name')?.touched && myform.get('name')?.invalid)">
+        <small class="text-danger" *ngIf="myform.get('name')?.errors?.['required']">required</small>
+        <small class="text-danger" *ngIf="myform.get('name')?.errors?.['unmatchedname']">unmathced name</small>
+    </div>
+</form>-->
+<!--start footer-->
+<section class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4 col-md-6 col-sm-12 intro">
+                <h3 class="mb-3">Modernize</h3>
+                <p class="mb-1">Salah El-Deen St</p>
+                <p class="mb-3">Damanhour,Egypt</p>
+                <p class="mb-1"><span>Phone:</span>0106<sup>55</sup>784<sup>5</sup>6</p>
+                <p><span>Email:</span>atiffahmykhamis@gmail.com</p>
+                <div class="footer-social">
+                    <div> <i class='bx bxl-facebook'></i></div>
+                    <div><i class='bx bxl-linkedin'></i></div>
+                    <div><i class='bx bxl-github'></i></div>
+
+                </div>
+            </div>
+            <div class="col-lg-2 col-md-3 col-sm-12 useful-links mt-4 mt-md-0">
+                <h4>Useful Links</h4>
+                <ul class="list-unstyled">
+
+                    <li>
+                        <a href="/Client/Index#Landing">Home</a>
+                    </li>
+                    <li>
+                        <a href="/Client/Index#about">About</a>
+                    </li>
+                    <li>
+                        <a href="/Client/Index#courses">Courses</a>
+                    </li>
+                    <li>
+                        <a href="/Client/Index#Instructors">Instructors</a>
+                    </li>
+
+                    <li>
+                        <a href="/Client/Index#contact">Contact</a>
+                    </li>
+                </ul>
+
+            </div>
+            <div class="col-lg-2 col-md-3 col-sm-12 mt-2 mt-md-0 our-services">
+                <h4>our services</h4>
+                <ul class="list-unstyled">
+
+                    <li>
+                        <a>Web Design</a>
+                    </li>
+                    <li>
+                        <a>Web Development</a>
+                    </li>
+                    <li>
+                        <a>Product Management</a>
+                    </li>
+                    <li>
+                        <a>Marketing</a>
+                    </li>
+                    <li>
+                        <a>Graphic Design</a>
+                    </li>
+                </ul>
+
+            </div>
+
+            <div class="col-12 mt-2 col-lg-0 col-lg-4 newsLetter">
+                <h3>Our Newsletter
+                </h3>
+                <p class="my-4"> Subscribe to our newsletter and receive the latest news about our products and services!</p>
+
+                <div class="newsLetter-form position-relative">
+                    <input type="email">
+                    <button>Subscribe</button>
+                </div>
+            </div>
+
+            <div class="col-12 mt-5 end">
+                <p class="my-0">&copy; Copyright <span class="sitename">Modernize</span> All Rights Reserved</p>
+                <p class="my-0">Designed by <span class="author">Mohmed Atef</span> </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--end footer-->
+
+
+<!--start sidebarmenu-->
+
+<button class="btn  offcanvas-show" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
+    <i class='bx bx-cog' ></i>
+  </button>
+
+<div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+    <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasExampleLabel">Pick A Color</h5>
+        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div class="offcanvas-body d-flex justify-content-center">
+
+        <div class="d-flex flex-column align-items-center">
+            <input type="color" #color class="mt-4" (input)="changeTheme(color.value)"><br>
+
+        </div>
+    </div>
+</div>
+<!--end sidebarmenu-->

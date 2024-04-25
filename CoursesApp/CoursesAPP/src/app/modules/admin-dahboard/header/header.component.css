@@ -1,0 +1,8 @@
+.dropdown-menu.dropdown-menu-end.dropdown-menu-animate-up.show {
+    display: block;
+    right: 10px;
+}
+
+.dropdown-menu.dropdown-menu-end.dropdown-menu-animate-up {
+    display: none;
+}

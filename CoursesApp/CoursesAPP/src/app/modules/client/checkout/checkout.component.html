@@ -1,0 +1,98 @@
+<div class="container-fluid d-flex align-items-center window">
+
+
+    <div class="container">
+        <div class="row">
+            <div class="col-12 mb-5 mb-lg-0 col-lg-6 order">
+                <div class="order-summary">
+                    <h3>Order Summary</h3>
+                    <hr>
+                    <div class="d-flex gap-3 flex-column align-items-center">
+                        <div>
+                            <img src="http://localhost:44313/Resources/{{course.imgname}}" alt="" class="img-fluid" style="height: 200px;">
+                        </div>
+                        <div>
+                            <p class="my-0 mb-2">
+                                <span class="d-inline-block me-1 text-danger">Name:</span> {{course.name}}
+
+                            </p>
+                            <p class="my-0 mb-2"><span class="d-inline-block me-1 text-danger">Description:</span>{{course.description}}</p>
+                            <p class="my-0 mb-2"> <span class="d-inline-block me-1 text-danger">Price:</span> {{course.price}} $</p>
+                            <p class="my-0 mb-2"> <span class="d-inline-block me-1 text-danger">Start Date:</span> {{course.startDate|date:'longDate'}}</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-lg-6 checkout-form">
+                <form style="width: 100%;" [formGroup]="checkoutForm" (ngSubmit)="submit()">
+                    <h1>Checkout</h1>
+
+                    <label class="d-block mb-1">
+                        Card Holder
+                    </label>
+
+                    <input type="text" class="form-control" formControlName="cardHolder" placeholder="john smith">
+                    <div class="font-weight-bold my-2" *ngIf="checkoutForm.get('cardHolder')?.invalid && checkoutForm.get('cardHolder')?.touched" style="color:red">
+                        <span *ngIf="checkoutForm.get('cardHolder')?.errors?.['required']">Card Holder Name is Required</span>
+                        <span *ngIf="checkoutForm.get('cardHolder')?.errors?.['minlength']">Card Holder Name Min Length is 10 chars</span>
+
+                    </div>
+                    <label class="d-block mb-1">
+                        Card Holder Address
+                    </label>
+
+                    <input type="text" class="form-control" formControlName="Address" placeholder="United States">
+                    <div class=" font-weight-bold my-2" *ngIf="checkoutForm.get('Address')?.invalid && checkoutForm.get('Address')?.touched" style="color:red">
+                        <span *ngIf="checkoutForm.get('Address')?.errors?.['required']">Card Holder Address is Required</span>
+                        <span *ngIf="checkoutForm.get('Address')?.errors?.['minlength']">Card Holder Address Min Length is 2 chars</span>
+
+                    </div>
+                    <label class="d-block mb-1">
+    Card Number
+</label>
+                    <div class="form-group">
+                        <div #cardNumber id="cardNumber" class="form-control text-white"></div>
+                    </div>
+
+
+
+
+                    <div class="container-fluid mb-2">
+                        <div class="row">
+                            <div class="col-6  px-0 pe-2">
+                                <label class="d-block mb-1">
+                Expires
+            </label>
+
+                                <div class="form-group">
+                                    <div #cardExpiry id="cardExpiry" class="form-control text-white"></div>
+                                </div>
+                            </div>
+                            <div class="col-6 px-0 ps-2">
+                                <label class="d-block mb-1">
+                CVC
+            </label>
+
+                                <div class="form-group">
+                                    <div #cardCVC id="cardCVC" class="form-control text-white"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <ng-container *ngIf="cardError">
+                            <div class="my-2" style="color:red">
+                                {{cardError}}
+                            </div>
+
+
+                        </ng-container>
+                    </div>
+                    <button class="btn btn-success btn-block" [disabled]="checkoutForm.invalid || cardError">Checkout
+                    
+                    <i [hidden]="!loading" class="fa fa-spinner fa-spin mx-2" style="color: white;"></i>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+</div>

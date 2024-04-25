@@ -1,0 +1,104 @@
+<div style="display: flex;justify-content: center;align-items: center;">
+
+
+    <form style="width: 80%;" [formGroup]="myform" (ngSubmit)="Create()" enctype="multipart/form-data">
+        <h1 class="text-center text-danger">Create Course </h1>
+
+        <div class="form-group mb-3">
+            <label>Name</label>
+            <input type="text" class="form-control" formControlName="name" placeholder="Enter Name">
+            <div *ngIf="this.myform.get('name')?.invalid && this.myform.get('name')?.touched" class="text-danger">
+                <span class="d-block mb-3" *ngIf="this.myform.get('name')?.errors?.['required']">
+                Name is Required
+                </span>
+                <span class="d-block" *ngIf="this.myform.get('name')?.errors?.['minlength']">
+                    Min Length is 5 chars
+                    </span>
+                <span class="d-block" *ngIf="this.myform.get('name')?.errors?.['maxlength']">
+                        Max Length is 20 chars
+                        </span>
+            </div>
+        </div>
+        <div class="form-group mb-3">
+            <label>Image</label><br>
+
+            <input type="file" class="form-control" formControlName="image" (change)="onFileChange($event)">
+            <div *ngIf="(isFileUploaded && this.myform.get('image')?.invalid && (this.myform.get('image')?.touched||this.myform.get('image')?.dirty)||imagevalidate)" class="text-danger">
+                <span class="d-block mb-3" *ngIf="this.myform.get('image')?.errors?.['required'] ">
+                Image is Required
+                </span>
+            </div>
+        </div>
+        <div class="form-group mb-3">
+            <label>Description</label>
+            <textarea class="form-control" formControlName="description" placeholder="Enter Description"></textarea>
+            <div *ngIf="this.myform.get('description')?.invalid && this.myform.get('description')?.touched" class="text-danger">
+                <span class="d-block mb-3" *ngIf="this.myform.get('description')?.errors?.['required']">
+                Description is Required
+                </span>
+                <span class="d-block" *ngIf="this.myform.get('description')?.errors?.['minlength']">
+                    Min Length is 5 chars
+                    </span>
+                <span class="d-block" *ngIf="this.myform.get('description')?.errors?.['maxlength']">
+                        Max Length is 20 chars
+                        </span>
+            </div>
+        </div>
+        <div class="form-group mb-3">
+            <label>Price</label>
+            <input type="number" class="form-control" formControlName="price" placeholder="Enter Price">
+            <div *ngIf="this.myform.get('price')?.invalid && this.myform.get('price')?.touched" class="text-danger">
+                <span class="d-block mb-3" *ngIf="this.myform.get('price')?.errors?.['required']">
+                Price is Required
+                </span>
+                <span class="d-block" *ngIf="this.myform.get('price')?.errors?.['min']">
+                    Min value is 10 
+                    </span>
+                <span class="d-block" *ngIf="this.myform.get('price')?.errors?.['max']">
+                        Max value is 10000 
+                        </span>
+            </div>
+        </div>
+        <div class="form-group mb-3">
+            <label>Start Date</label>
+            <input type="date" class="form-control" formControlName="startdate" placeholder="dd-mm-yyyy">
+            <div *ngIf="this.myform.get('startdate')?.invalid && this.myform.get('startdate')?.touched" class="text-danger">
+                <span class="d-block mb-3" *ngIf="this.myform.get('startdate')?.errors?.['required']">
+                    Start date is Required
+                </span></div>
+        </div>
+
+        <div class="form-group mb-3">
+            <label>End Date</label>
+            <input type="date" class="form-control" formControlName="enddate" placeholder="dd-mm-yyyy">
+            <div *ngIf="this.myform.get('enddate')?.invalid && this.myform.get('enddate')?.touched" class="text-danger">
+                <span class="d-block mb-3" *ngIf="this.myform.get('enddate')?.errors?.['required']">
+                    End date is Required
+                </span></div>
+
+        </div>
+        <div class="form-group mb-3">
+            <label for="exampleInputEmail1">Instructor</label>
+            <p class="text-danger my-1" *ngIf="instructors.length==0">**Please Add Instructor First To Attach Course To it</p>
+            <select formControlName="instructorid" class="form-control" [attr.disabled]="true" *ngIf="instructors.length==0">
+              
+            
+            </select>
+            <select formControlName="instructorid" class="form-control"*ngIf="instructors.length!=0" >
+              
+                <option *ngFor="let e of instructors" [value]="e.id">{{e.name}}</option>
+              </select>
+            <div *ngIf="this.myform.get('instructorid')?.invalid && this.myform.get('instructorid')?.touched" class="text-danger">
+                <span class="d-block mb-3" *ngIf="this.myform.get('instructorid')?.errors?.['required']">
+                    Instructor is Required
+                </span></div>
+
+        </div>
+
+        <div style="display: flex;justify-content:center">
+
+
+            <button type="submit" class="btn btn-primary">Create</button>
+        </div>
+    </form>
+</div>

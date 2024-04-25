@@ -1,0 +1,49 @@
+<div style="display: flex;justify-content: center;align-items: center;">
+
+
+    <form style="width: 80%;">
+        <h1 class="text-center text-danger">Payment Details</h1>
+        <div class="form-group mb-3">
+            <label for="exampleInputEmail1">ID</label>
+            <input type="text" class="form-control" disabled [value]="payment.id">
+
+        </div>
+        <div class="form-group mb-3">
+            <label for="exampleInputEmail1">Card Expiration Year</label>
+            <input type="text" class="form-control" disabled [value]="payment.expirationYear">
+
+        </div>
+        <div class="form-group mb-3">
+            <label for="exampleInputEmail1">Card Expiration Month</label>
+            <input type="text" class="form-control" disabled [value]="payment.expirationMonth">
+
+        </div>
+        <div class="form-group mb-3">
+            <label for="exampleInputEmail1">Card Holder Name</label>
+            <input type="text" class="form-control" disabled [value]="payment.name">
+
+        </div>
+        <div class="form-group mb-3">
+            <label for="exampleInputEmail1">Date</label>
+            <input type="datetime" class="form-control" disabled [value]="payment.date|date:'dd-MM-yyyy'">
+
+        </div>
+
+        <div class="form-group mb-3">
+            <label for="exampleInputEmail1">Student ID</label>
+            <input type="text" class="form-control" disabled [value]="payment.studentCourse.studentid">
+
+        </div>
+       
+        <div class="form-group mb-3">
+            <label for="exampleInputEmail1">Course ID</label>
+            <input type="text" class="form-control" disabled [value]="payment.studentCourse.courseid">
+
+        </div>
+        <div style="display: flex;justify-content:center">
+
+            <a routerLink="/Admin/Payment/Index" class="btn btn-primary">Back To Data</a>
+        </div>
+    </form>
+</div>
+

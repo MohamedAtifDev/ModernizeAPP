@@ -1,0 +1,38 @@
+<div style="display: flex;justify-content: center;align-items: center;">
+
+
+    <form style="width: 80%;" [formGroup]="myform" (ngSubmit)="Assign()">
+        <h1 class="text-center text-danger">Assign Course To Branch </h1>
+        <div class="form-group mb-3">
+            <label for="exampleInputEmail1">Course</label>
+            <select formControlName="course" class="form-control" (change)="loadBranches()">
+            <option *ngFor="let e of courses" [value]="e.id">{{e.name}}</option>
+            </select>
+            <div *ngIf="this.myform.get('course')?.invalid && this.myform.get('course')?.touched" class="text-danger">
+                <span class="d-block mb-3" *ngIf="this.myform.get('course')?.errors?.['required']">
+                    course is Required
+                </span></div>
+
+        </div>
+
+        <div class="form-group mb-3">
+            <label for="exampleInputEmail1">Branch</label>
+            <select formControlName="branch" class="form-control">
+            <option *ngFor="let e of branches" [value]="e.id">{{e.name}}</option>
+            </select>
+            <div *ngIf="this.myform.get('branch')?.invalid && this.myform.get('branch')?.touched" class="text-danger">
+                <span class="d-block mb-3" *ngIf="this.myform.get('branch')?.errors?.['required']">
+                    branch is Required
+                </span></div>
+
+        </div>
+
+
+
+        <div style="display: flex;justify-content:center">
+
+
+            <button type="submit" class="btn btn-primary">Assign</button>
+        </div>
+    </form>
+</div>

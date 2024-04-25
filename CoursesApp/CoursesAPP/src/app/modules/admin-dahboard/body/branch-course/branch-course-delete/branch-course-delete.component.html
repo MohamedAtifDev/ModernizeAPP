@@ -1,0 +1,45 @@
+<div style="display: flex;justify-content: center;align-items: center;">
+
+
+    <form style="width: 80%;" [formGroup]="myform">
+        <h1 class="text-center text-danger">Delete Course From Branch </h1>
+        <div class="form-group mb-3">
+            <label for="exampleInputEmail1">Course</label>
+            <select formControlName="course" class="form-control" (change)="loadBranches()">
+            <option *ngFor="let e of courses" [value]="e.id">{{e.name}}</option>
+            </select>
+            <div *ngIf="this.myform.get('course')?.invalid && this.myform.get('course')?.touched" class="text-danger">
+                <span class="d-block mb-3" *ngIf="this.myform.get('course')?.errors?.['required']">
+                    course is Required
+                </span></div>
+
+        </div>
+        <table class="table table-striped table-bordered  table-hover" [hidden]="!show">
+            <thead>
+                <tr>
+                    <th>Branch ID</th>
+                    <th>Branch Name</th>
+                    <th>Branch Location</th>
+                    <th>Delete</th>
+
+                </tr>
+            </thead>
+            <tbody>
+                <tr *ngFor="let branchdata of branches">
+                    <td>{{branchdata.id}}</td>
+                    <td>{{branchdata.name}}</td>
+                    <td>{{branchdata.location}}</td>
+                    <td><button type="button" class="btn btn-outline-danger" (click)="Delete(branchdata.id)">Delete</button></td>
+                </tr>
+                <tr *ngIf=" start">
+                    <td [colSpan]="4" class="text-center">
+                        <p> Not Assigned To Branch Yet</p>
+                    </td>
+
+
+                </tr>
+            </tbody>
+        </table>
+
+    </form>
+</div>

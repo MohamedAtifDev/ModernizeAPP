@@ -1,0 +1,90 @@
+<div class="page-wrapper" id="main-wrapper" data-layout="vertical" data-navbarbg="skin6" data-sidebartype="full" data-sidebar-position="fixed" data-header-position="fixed">
+    <div class="position-relative overflow-hidden radial-gradient min-vh-100 d-flex align-items-center justify-content-center">
+        <div class="d-flex align-items-center justify-content-center w-100">
+            <div class="row justify-content-center w-100">
+                <div class="col-md-8 col-lg-6 col-xxl-3">
+                    <div class="card mb-0">
+                        <div class="card-body" style="background-color: white;">
+                            <a href="./index.html" class="text-nowrap logo-img text-center d-block py-3 w-100">
+                                <img src="../assets/images/logos/dark-logo.svg" width="180" alt="">
+                            </a>
+                            <p class="text-center">Your Social Campaigns</p>
+                            <form [formGroup]="myform" (ngSubmit)="Signup()">
+                                <!--- <div class="text-danger text-center" *ngIf="message!=''">
+                                    {{message}}
+
+                                </div>
+                                <div class="text-danger text-center" *ngIf="messages.length>0">
+                                    <span *ngFor="let e of messages">{{e}}</span>
+
+                                </div>
+                            -->
+                                <div class="mb-3">
+                                    <label for="exampleInputEmail1" class="form-label">Email Address</label>
+                                    <input type="email" class="form-control" (blur)="isEmailExist()" id="exampleInputEmail1" formControlName="email" aria-describedby="emailHelp">
+                                    <div class="text-danger font-weight-bold mb-3" *ngIf="(this.myform.get('email')?.invalid &&this.myform.get('email')?.touched)||messageValidate.email.matchEmail!=''">
+                                        <span *ngIf="this.myform.get('email')?.errors?.['required']" class="d-block">
+                            {{messageValidate.email.required}}
+                            
+                            </span>
+                                        <span *ngIf="this.myform.get('email')?.errors?.['email']">{{messageValidate.email.notValid}}</span>
+
+                                        <span *ngIf="messageValidate.email.matchEmail!=''" class="d-block">
+                                        {{messageValidate.email.matchEmail}}
+                                        
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="mb-4">
+                                    <label for="exampleInputPassword1" class="form-label">Password</label>
+                                    <input type="password" class="form-control" formControlName="password" id="exampleInputPassword1" (blur)="isPasswordValid()" (focus)="empty()">
+                                    <div class="text-danger font-weight-bold mb-3" *ngIf="(this.myform.get('password')?.invalid &&this.myform.get('password')?.touched)||messageValidate.pass.notMatch.length>0">
+                                        <span *ngIf="this.myform.get('password')?.errors?.['required']" class="d-block">
+                            {{messageValidate.pass.required}}
+                            
+                            </span>
+                                        <span *ngIf="this.myform.get('password')?.errors?.['minlength']">{{messageValidate.pass.minLength}}</span>
+
+
+                                        <div class="text-danger" *ngIf="messageValidate.pass.notMatch.length >0">
+
+                                            <span class="d-block" *ngFor="let ele of messageValidate.pass.notMatch">{{ele}}</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="mb-4">
+                                    <label for="exampleInputPassword1" class="form-label">confirm Password</label>
+                                    <input type="password" formControlName="confirmpassword" class="form-control" id="exampleInputPassword1">
+                                    <div class="text-danger font-weight-bold mb-3" *ngIf="(this.myform.get('confirmpassword')?.invalid &&this.myform.get('confirmpassword')?.touched)||(!isPasswordMatch()&&this.myform.get('confirmpassword')?.touched) ">
+                                        <span *ngIf="this.myform.get('confirmpassword')?.errors?.['required']" class="d-block">
+                            {{messageValidate.passConfirm.required}}
+                            
+                            </span>
+                                        <span *ngIf="this.myform.get('confirmpassword')?.errors?.['minlength']" class="d-block">{{messageValidate.passConfirm.minLength}}</span>
+                                        <span *ngIf="!isPasswordMatch()" class="d-block">{{messageValidate.passConfirm.isMatch}}</span>
+
+                                    </div>
+                                </div>
+                                <div class="mb-4">
+                                    <label for="exampleInputPassword1" class="form-label">Phone</label>
+                                    <input type="text" formControlName="phone" class="form-control" id="exampleInputPassword1">
+                                    <div class="text-danger font-weight-bold mb-3" *ngIf="(this.myform.get('phone')?.invalid &&this.myform.get('phone')?.touched)">
+                                        <span *ngIf="this.myform.get('phone')?.errors?.['required']" class="d-block">
+                            {{messageValidate.phone.required}}
+                            
+                            </span>
+                                    </div>
+                                </div>
+                                <button type="submit" [disabled]="!myform.valid || !isPasswordMatch()" class="btn btn-primary w-100 py-8 fs-4 mb-4 rounded-2">Sign Up</button>
+                                <div class="d-flex align-items-center justify-content-center">
+                                    <p class="fs-4 mb-0 fw-bold">Already have an Account?</p>
+                                    <a class="text-primary fw-bold ms-2" routerLink="/Auth/Login">Sign In</a>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

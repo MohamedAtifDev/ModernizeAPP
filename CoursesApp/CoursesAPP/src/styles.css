@@ -1,0 +1,24 @@
+@import "../src/assets/css/styles.min.css";
+@import "../node_modules/ngx-toastr/toastr.css";
+@import '~ag-grid-community/styles/ag-grid.css';
+
+/* Quartz Theme Specific CSS */
+
+@import '~ag-grid-community/styles/ag-theme-quartz.css';
+@import "../node_modules/ngx-owl-carousel-o/lib/styles/prebuilt-themes/owl.carousel.css";
+@import "../node_modules/ngx-owl-carousel-o/lib/styles/prebuilt-themes/owl.theme.default.css";
+body {
+    padding: 0 !important;
+}
+
+.ag-center-cols-container{
+    width: 100% !important;
+}
+.ag-header-cell-label,.ag-ltr .ag-cell{
+    display: flex;
+    justify-content: center;
+}
+
+.ag-row-animation .ag-row{
+    height: 50px !important;
+}
